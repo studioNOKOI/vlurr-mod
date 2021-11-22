@@ -11,5 +11,4 @@ its the vlurr mod baby
 
 
 
-removed all the dumb watermarks from an old version of kade engine and here we have it
-hope ya all enjoy
+removed all the dumb watermarks from an old version of kade engine and here we have it. hope you enjoy!!
