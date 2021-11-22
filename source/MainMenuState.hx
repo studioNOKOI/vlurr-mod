@@ -44,6 +44,9 @@ class MainMenuState extends MusicBeatState
 
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
+
+	var tex:FlxAtlasFrames;
+
 	public static var finishedFunnyMove:Bool = false;
 
 	override function create()
@@ -87,7 +90,10 @@ class MainMenuState extends MusicBeatState
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
-		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
+		if (!FlxG.save.data.spanish)
+			tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
+		if (FlxG.save.data.spanish)
+			tex = Paths.getSparrowAtlas('FNF_main_menu_assets_s');
 
 		for (i in 0...optionShit.length)
 		{

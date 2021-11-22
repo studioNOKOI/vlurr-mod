@@ -43,6 +43,10 @@ class TitleState extends MusicBeatState
 	var credTextShit:Alphabet;
 	var textGroup:FlxGroup;
 	var ngSpr:FlxSprite;
+	var nokoi:FlxSprite;
+	var vlurr:FlxSprite;
+	var laz:FlxSprite;
+	var chopp:FlxSprite;
 
 	var curWacky:Array<String> = [];
 
@@ -120,7 +124,7 @@ class TitleState extends MusicBeatState
 		#end
 	}
 
-	var logoBl:FlxSprite;
+	public var logoBl:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
@@ -163,25 +167,16 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		if(Main.watermarks) {
-			logoBl = new FlxSprite(-150, -100);
-			logoBl.frames = Paths.getSparrowAtlas('KadeEngineLogoBumpin');
-			logoBl.antialiasing = true;
-			logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
-			logoBl.animation.play('bump');
-			logoBl.updateHitbox();
-			// logoBl.screenCenter();
-			// logoBl.color = FlxColor.BLACK;
-		} else {
-			logoBl = new FlxSprite(-150, -100);
-			logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
-			logoBl.antialiasing = true;
-			logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
-			logoBl.animation.play('bump');
-			logoBl.updateHitbox();
-			// logoBl.screenCenter();
-			// logoBl.color = FlxColor.BLACK;
-		}
+		// fuck kade
+		logoBl = new FlxSprite(50, 0);
+		logoBl.scale.set(0.8, 0.8);
+		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
+		logoBl.antialiasing = true;
+		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
+		logoBl.animation.play('bump');
+		logoBl.updateHitbox();
+		// logoBl.screenCenter();
+		// logoBl.color = FlxColor.BLACK;
 
 		gfDance = new FlxSprite(FlxG.width * 0.4, FlxG.height * 0.07);
 		gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
@@ -230,6 +225,26 @@ class TitleState extends MusicBeatState
 		ngSpr.updateHitbox();
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = true;
+
+		nokoi = new FlxSprite(FlxG.width * 0.24, FlxG.height * 0.2).loadGraphic(Paths.image('nokoi'));
+		add(nokoi);
+		nokoi.setGraphicSize(Std.int(nokoi.width * 0.3));
+		nokoi.visible = false;
+
+		vlurr = new FlxSprite(FlxG.width * 0.5, FlxG.height * 0.18).loadGraphic(Paths.image('vlurr'));
+		add(vlurr);
+		vlurr.setGraphicSize(Std.int(vlurr.width * 0.3));
+		vlurr.visible = false;
+
+		laz = new FlxSprite(FlxG.width * 0.05, FlxG.height * 0.3).loadGraphic(Paths.image('laz'));
+		add(laz);
+		laz.setGraphicSize(Std.int(laz.width * 0.3));
+		laz.visible = false;
+
+		chopp = new FlxSprite(FlxG.width * 0.63, FlxG.height * 0.3).loadGraphic(Paths.image('chopp'));
+		add(chopp);
+		chopp.setGraphicSize(Std.int(chopp.width * 0.3));
+		chopp.visible = false;
 
 		FlxTween.tween(credTextShit, {y: credTextShit.y + 20}, 2.9, {ease: FlxEase.quadInOut, type: PINGPONG});
 
@@ -405,62 +420,70 @@ class TitleState extends MusicBeatState
 
 		switch (curBeat)
 		{
-			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-			// credTextShit.visible = true;
-			case 3:
-				addMoreText('present');
-			// credTextShit.text += '\npresent...';
-			// credTextShit.addText();
-			case 4:
-				deleteCoolText();
-			// credTextShit.visible = false;
-			// credTextShit.text = 'In association \nwith';
-			// credTextShit.screenCenter();
-			case 5:
-				if (Main.watermarks)
-					createCoolText(['Kade Engine', 'by']);
-				else
-					createCoolText(['In Partnership', 'with']);
-			case 7:
-				if (Main.watermarks)
-					addMoreText('KadeDeveloper');
-				else
-				{
-					addMoreText('Newgrounds');
-					ngSpr.visible = true;
-				}
-			// credTextShit.text += '\nNewgrounds';
-			case 8:
-				deleteCoolText();
-				ngSpr.visible = false;
-			// credTextShit.visible = false;
+            case 1:
+                createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+            // credTextShit.visible = true;
+            case 3:
+                if (!FlxG.save.data.spanish)
+                {
+                    addMoreText('present');
+                }
+                else if (FlxG.save.data.spanish)
+                {
+                    createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+                    addMoreText('presentan');
+                }
+            // credTextShit.text += '\npresent...';
+            // credTextShit.addText();
+            case 4:
+                deleteCoolText();
+            // credTextShit.visible = false;
+            // credTextShit.text = 'In association \nwith';
+            // credTextShit.screenCenter();
+            case 5:
+                createCoolText(['a mod by', 'nokoi']);
+                nokoi.visible = true;
+            case 6:
+                addMoreText('vlurr');
+                vlurr.visible = true;
+            case 7:
+                addMoreText('laz and chopp');
+				chopp.visible = true;
+				laz.visible = true;
+            // credTextShit.text += '\nNewgrounds';
+            case 8:
+                deleteCoolText();
+                nokoi.visible = false;
+                vlurr.visible = false;
+				laz.visible = false;
+				chopp.visible = false;
+            // credTextShit.visible = false;
 
-			// credTextShit.text = 'Shoutouts Tom Fulp';
-			// credTextShit.screenCenter();
-			case 9:
-				createCoolText([curWacky[0]]);
-			// credTextShit.visible = true;
-			case 11:
-				addMoreText(curWacky[1]);
-			// credTextShit.text += '\nlmao';
-			case 12:
-				deleteCoolText();
-			// credTextShit.visible = false;
-			// credTextShit.text = "Friday";
-			// credTextShit.screenCenter();
-			case 13:
-				addMoreText('Friday');
-			// credTextShit.visible = true;
-			case 14:
-				addMoreText('Night');
-			// credTextShit.text += '\nNight';
-			case 15:
-				addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+            // credTextShit.text = 'Shoutouts Tom Fulp';
+            // credTextShit.screenCenter();
+            case 9:
+                createCoolText([curWacky[0]]);
+            // credTextShit.visible = true;
+            case 11:
+                addMoreText(curWacky[1]);
+            // credTextShit.text += '\nlmao';
+            case 12:
+                deleteCoolText();
+            // credTextShit.visible = false;
+            // credTextShit.text = "Friday";
+            // credTextShit.screenCenter();
+            case 13:
+                addMoreText('Friday');
+            // credTextShit.visible = true;
+            case 14:
+                addMoreText('Night');
+            // credTextShit.text += '\nNight';
+            case 15:
+                addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
 
-			case 16:
-				skipIntro();
-		}
+            case 16:
+                skipIntro();
+        }
 	}
 
 	var skippedIntro:Bool = false;
@@ -470,6 +493,10 @@ class TitleState extends MusicBeatState
 		if (!skippedIntro)
 		{
 			remove(ngSpr);
+			remove(laz);
+			remove(nokoi);
+			remove(chopp);
+			remove(vlurr);
 
 			FlxG.camera.flash(FlxColor.WHITE, 4);
 			remove(credGroup);

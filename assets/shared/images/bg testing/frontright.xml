@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:8ba966275ab358970ffcaea013619902:1050dea6f80112ee509b35453aba2d13:c6026e36df1e3178016d758bb9d2e8a7$ -->
+<TextureAtlas imagePath="frontright.png" width="7713" height="5779">
+    <SubTexture name="Building 3 blue RIGHT0001" x="1" y="1" width="1541" height="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0002" x="1544" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0003" x="1544" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0004" x="1544" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0005" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0006" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0007" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0008" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0009" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0010" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0011" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0012" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0013" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 blue RIGHT0014" x="4630" y="2111" width="1541" height="2098" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 multicolor RIGHT0001" x="1544" y="4239" rotated="true" width="2052" height="1539" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0002" x="1544" y="4239" rotated="true" width="2052" height="1539" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0003" x="6173" y="1" width="1539" height="2042" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0004" x="6173" y="1" width="1539" height="2042" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0005" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0006" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0007" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0008" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0009" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0010" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0011" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0012" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0013" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0014" x="3598" y="4238" rotated="true" width="2061" height="1540" frameX="-1" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0015" x="6173" y="2045" width="1539" height="2042" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0016" x="6173" y="2045" width="1539" height="2042" frameX="-2" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0017" x="3087" y="2120" width="1541" height="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0018" x="3087" y="2120" width="1541" height="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0019" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0020" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0021" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0022" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0023" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0024" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0025" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0026" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0027" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0028" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0029" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 multicolor RIGHT0030" x="4630" y="1" width="1541" height="2108" frameX="0" frameY="0" frameWidth="1541" frameHeight="2116"/>
+    <SubTexture name="Building 3 stand  RIGHT" x="5661" y="4211" rotated="true" width="2013" height="1536"/>
+    <SubTexture name="Building 3 yellow RIGHT0001" x="1544" y="2120" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0002" x="1544" y="2120" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0003" x="1" y="2128" width="1541" height="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0004" x="1" y="2128" width="1541" height="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0005" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0006" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0007" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0008" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0009" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0010" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0011" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0012" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0013" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+    <SubTexture name="Building 3 yellow RIGHT0014" x="3087" y="1" width="1541" height="2117" frameX="0" frameY="0" frameWidth="1541" frameHeight="2125"/>
+</TextureAtlas>

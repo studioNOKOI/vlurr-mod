@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:805c077e26dccf3169f3f1012b766062:127f50d218bf912488ec875218e59859:d89abba385c1300d946d2738090d6696$ -->
+<TextureAtlas imagePath="building2.png" width="12837" height="12736">
+    <SubTexture name="blue0001" x="1" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0002" x="4280" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0003" x="4280" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0004" x="4280" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0005" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0006" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0007" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0008" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0009" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0010" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0011" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0012" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0013" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="blue0014" x="8559" y="3185" width="4277" height="3182"/>
+    <SubTexture name="pink0001" x="1" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0002" x="1" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0003" x="4280" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0004" x="4280" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0005" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0006" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0007" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0008" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0009" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0010" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0011" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0012" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0013" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="pink0014" x="8559" y="6369" width="4277" height="3182"/>
+    <SubTexture name="teal0015" x="1" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0016" x="1" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0017" x="4280" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0018" x="4280" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0019" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0020" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0021" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0022" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0023" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0024" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0025" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0026" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0027" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0028" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0029" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="teal0030" x="8559" y="9553" width="4277" height="3182"/>
+    <SubTexture name="error0001" x="1" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0002" x="1" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0003" x="4280" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0004" x="4280" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0005" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0006" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0007" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0008" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0009" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0010" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0011" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0012" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0013" x="8559" y="1" width="4277" height="3182"/>
+    <SubTexture name="error0014" x="8559" y="1" width="4277" height="3182"/>
+</TextureAtlas>

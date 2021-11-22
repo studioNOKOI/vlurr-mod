@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="language.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="english deselected0000" x="0" y="0" width="449" height="98" pivotX="0" pivotY="0"/>
+	<SubTexture name="english selected0000" x="449" y="0" width="592" height="197" pivotX="0" pivotY="1.5" frameX="0" frameY="-1" frameWidth="596" frameHeight="198"/>
+	<SubTexture name="english selected0001" x="1041" y="0" width="593" height="198" frameX="-1" frameY="0" frameWidth="596" frameHeight="198"/>
+	<SubTexture name="english selected0002" x="0" y="198" width="594" height="197" frameX="-2" frameY="-1" frameWidth="596" frameHeight="198"/>
+	<SubTexture name="spanish deselected0000" x="594" y="198" width="472" height="99" pivotX="0" pivotY="0"/>
+	<SubTexture name="spanish selected0000" x="1066" y="198" width="598" height="188" pivotX="0" pivotY="0" frameX="0" frameY="0" frameWidth="598" frameHeight="191"/>
+	<SubTexture name="spanish selected0001" x="0" y="395" width="597" height="188" frameX="-1" frameY="-3" frameWidth="598" frameHeight="191"/>
+	<SubTexture name="spanish selected0002" x="597" y="395" width="597" height="186" frameX="-1" frameY="-3" frameWidth="598" frameHeight="191"/>
+</TextureAtlas>

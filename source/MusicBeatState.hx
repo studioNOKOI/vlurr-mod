@@ -22,6 +22,9 @@ class MusicBeatState extends FlxUIState
 	private var curBeat:Int = 0;
 	private var controls(get, never):Controls;
 
+	public var spanish:Bool; // testing blahblah
+
+
 	inline function get_controls():Controls
 		return PlayerSettings.player1.controls;
 

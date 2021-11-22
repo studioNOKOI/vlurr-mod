@@ -8,6 +8,15 @@ class KadeEngineData
         if (FlxG.save.data.newInput == null)
 			FlxG.save.data.newInput = true;
 
+		if (FlxG.save.data.spanish == null)
+			FlxG.save.data.spanish == false;
+
+		if (FlxG.save.data.x == null)
+			FlxG.save.data.x = Lib.application.window.x;
+
+		if (FlxG.save.data.y == null)
+			FlxG.save.data.y = Lib.application.window.y;
+		
 		if (FlxG.save.data.downscroll == null)
 			FlxG.save.data.downscroll = false;
 
@@ -55,7 +64,7 @@ class KadeEngineData
 			FlxG.save.data.accuracyMod = 1;
 
 		if (FlxG.save.data.watermark == null)
-			FlxG.save.data.watermark = true;
+			FlxG.save.data.watermark = false;
 
 		if (FlxG.save.data.ghost == null)
 			FlxG.save.data.ghost = true;
